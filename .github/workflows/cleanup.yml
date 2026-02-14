@@ -1,0 +1,30 @@
+name: Cleanup
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '00 3 * * 1-5'
+
+jobs:
+  run_and_commit:
+    runs-on: gh-hosted-runner
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: 3
+
+    - name: Run cleanup
+      run: python cleanup.py
+
+    - name: Commit Changes
+      run: |
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'actions@github.com'
+        git add .
+        git commit -m "Github Actions - Daily Reports Cleanup"
+        git push
