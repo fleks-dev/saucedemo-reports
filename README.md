@@ -8,6 +8,7 @@ Stores reports from [saucedemo-playwright](https://github.com/fleks-dev/saucedem
 
 | Date | Feature | Run ID | Link |
 |---|---|---|---|
+| 2026-03-09 | smoke | 22844490972 | [View Report](https://fleks-dev.github.io/saucedemo-reports/reports/2026-03-09/smoke/22844490972/index.html) |
 | 2026-03-06 | smoke | 22755038387 | [View Report](https://fleks-dev.github.io/saucedemo-reports/reports/2026-03-06/smoke/22755038387/index.html) |
 | 2026-03-05 | smoke | 22708763536 | [View Report](https://fleks-dev.github.io/saucedemo-reports/reports/2026-03-05/smoke/22708763536/index.html) |
 | 2026-03-04 | smoke | 22660857182 | [View Report](https://fleks-dev.github.io/saucedemo-reports/reports/2026-03-04/smoke/22660857182/index.html) |
@@ -17,6 +18,5 @@ Stores reports from [saucedemo-playwright](https://github.com/fleks-dev/saucedem
 | 2026-02-26 | smoke | 22433778440 | [View Report](https://fleks-dev.github.io/saucedemo-reports/reports/2026-02-26/smoke/22433778440/index.html) |
 | 2026-02-25 | smoke | 22388375775 | [View Report](https://fleks-dev.github.io/saucedemo-reports/reports/2026-02-25/smoke/22388375775/index.html) |
 | 2026-02-24 | smoke | 22342491747 | [View Report](https://fleks-dev.github.io/saucedemo-reports/reports/2026-02-24/smoke/22342491747/index.html) |
-| 2026-02-23 | smoke | 22298119473 | [View Report](https://fleks-dev.github.io/saucedemo-reports/reports/2026-02-23/smoke/22298119473/index.html) |
 
 <!-- REPORT_LINKS_END -->
